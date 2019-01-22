@@ -17,11 +17,11 @@ Instructions:
 
 Optimal for cycles, nodes, and instructions:
 
-[Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal), [Image of code](https://imgur.com/NCmY4t5), [Image of finished run]()
+[Source](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal), [Image in game](https://imgur.com/NCmY4t5), [Image of finished run]()
 
 BUSY_LOOP Achievement:
 
-[Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP), [Image of code](https://imgur.com/dZpfDnX), [Image of finished run](https://imgur.com/a/fHegr4i) (N.B., the finished run of this is exponentially less cycles than the source code, it was done by replacing 999 with 9, so instead of a ~1000^5 asymptotic we have ~10^5. The source code would take longer to finish running than the sun has left before it implodes.)
+[Source](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP), [Image in game](https://imgur.com/dZpfDnX), [Image of finished run](https://imgur.com/a/fHegr4i) (N.B., the finished run of this is exponentially less cycles than the source code, it was done by replacing 999 with 9, so instead of a ~1000^5 asymptotic we have ~10^5. The source code would take longer to finish running than the sun has left before it implodes.)
 
 # 2) SIGNAL AMPLIFIER
 
@@ -35,11 +35,11 @@ Instructions:
 
 Optimal for cycles and PARALLELIZED achievement:
 
-[Source Code](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/PARALLELIZE), [Image of code](https://imgur.com/cQF8CHV), [Image of finished run](https://imgur.com/l6M5gKE)
+[Source](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/PARALLELIZE), [Image in game](https://imgur.com/cQF8CHV), [Image of finished run](https://imgur.com/l6M5gKE)
 
 Optimal for nodes and instructions:
 
-[Source Code](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/Optimal%20Node%20Instruction), [Image of code](https://imgur.com/r1rRNUT), [Image of finished run](https://imgur.com/BEmUbvf)
+[Source](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/Optimal%20Node%20Instruction), [Image in game](https://imgur.com/r1rRNUT), [Image of finished run](https://imgur.com/BEmUbvf)
 
 # 3) DIFFERENTIAL COUNTER
 
