@@ -5,9 +5,28 @@ The game is divided into puzzles normally ask you to take some set of numerical 
 
 Some of the puzzles also have achievements associated with them, which are rewarded for solving the puzzles under extraneous conditions. For example, the first puzzle has an achievement for solving the puzzle in over 100,000 cycles, which is an enormous amount compared to the optimal amount of 83. 
 
-# Puzzle 1 SELF TEST DIAGNOSTIC 
+# 1) SELF-TEST DIAGNOSTIC 
 
-[Optimal solution](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal)
+[Optimal for all benchmarks solution](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal)
 [Achievement solution](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP)
+
+# 2) SIGNAL AMPLIFIER
+
+sdf
+sdf
+sdf
+
+# 3) DIFFERENTIAL COUNTER
+
+sdf
+sdf
+sdf
+
+# 4) SINGAL COMPARATOR
+
+sdf
+
+
+
 
 
