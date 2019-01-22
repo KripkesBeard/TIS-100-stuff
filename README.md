@@ -15,13 +15,13 @@ Instructions:
 
 >READ A VALUE FROM IN.A AND WRITE THE VALUE TO OUT.A
 
-Optimal for all benchmarks:
+Optimal for cycles, nodes, and instructions:
 
-[Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal), [Image](https://imgur.com/NCmY4t5)
+[Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal), [Image of code](https://imgur.com/NCmY4t5), [Image of finished run]()
 
-Achievement:
+BUSY_LOOP Achievement:
 
-[Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP), [Image](https://imgur.com/dZpfDnX)
+[Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP), [Image of code](https://imgur.com/dZpfDnX), [Image of finished run]() (N.B., the finished run of this is exponentially less cycles than the source code, it was done by replacing 999 with 9, so instead of 1000^5 we have 10^5. The source code would take longer than the sun has left to finish running.)
 
 # 2) SIGNAL AMPLIFIER
 
@@ -33,13 +33,13 @@ Instructions:
 
 >WRITE THE VALUE TO OUT.A
 
-Optimal for cycles and achievement:
+Optimal for cycles and PARALLELIZED achievement:
 
-[Source Code](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/PARALLELIZE), [Image](https://imgur.com/cQF8CHV)
+[Source Code](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/PARALLELIZE), [Image of code](https://imgur.com/cQF8CHV), [Image of finished run](https://imgur.com/l6M5gKE)
 
-Optimal for node count and instruction count:
+Optimal for nodes and instructions:
 
-[Source Code](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/Optimal%20Node%20Instruction), [Image](https://imgur.com/r1rRNUT)
+[Source Code](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/Optimal%20Node%20Instruction), [Image of code](https://imgur.com/r1rRNUT), [Image of finished run](https://imgur.com/BEmUbvf)
 
 # 3) DIFFERENTIAL COUNTER
 
