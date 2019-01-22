@@ -17,11 +17,11 @@ Instructions:
 
 Optimal for cycles, nodes, and instructions:
 
-[Source](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal), [Image in game](https://imgur.com/NCmY4t5), [Image of finished run]()
+[Source](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal), [Image in game](https://imgur.com/NCmY4t5), [Image of finished run](https://imgur.com/Q2KKAvS)
 
 BUSY_LOOP Achievement:
 
-[Source](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP), [Image in game](https://imgur.com/dZpfDnX), [Image of finished run](https://imgur.com/a/fHegr4i) (N.B., the finished run of this is exponentially less cycles than the source code, it was done by replacing 999 with 9, so instead of a ~1000^5 asymptotic we have ~10^5. The source code would take longer to finish running than the sun has left before it implodes.)
+[Source](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP), [Image in game](https://imgur.com/dZpfDnX), [Image of finished run](https://imgur.com/C0HDYxx) (N.B., the finished run of this is exponentially less cycles than the source code, it was done by replacing 999 with 9, so instead of a ~1000^5 asymptotic we have ~10^5. The source code would take longer to finish running than the sun has left before it implodes.)
 
 # 2) SIGNAL AMPLIFIER
 
@@ -53,7 +53,7 @@ Optimal for nodes and instructions:
 
 # 4) SINGAL COMPARATOR
 
-sdf
+
 
 
 
