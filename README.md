@@ -7,6 +7,7 @@ Some of the puzzles also have achievements associated with them, which are rewar
 
 # Puzzle 1 SELF TEST DIAGNOSTIC 
 
-
+[Optimal solution](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal)
+[Achievement solution](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP)
 
 
