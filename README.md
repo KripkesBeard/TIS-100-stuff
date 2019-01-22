@@ -21,7 +21,7 @@ Optimal for cycles, nodes, and instructions:
 
 BUSY_LOOP Achievement:
 
-[Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP), [Image of code](https://imgur.com/dZpfDnX), [Image of finished run]() (N.B., the finished run of this is exponentially less cycles than the source code, it was done by replacing 999 with 9, so instead of 1000^5 we have 10^5. The source code would take longer than the sun has left to finish running.)
+[Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP), [Image of code](https://imgur.com/dZpfDnX), [Image of finished run]() (N.B., the finished run of this is exponentially less cycles than the source code, it was done by replacing 999 with 9, so instead of a ~1000^5 asymptotic we have ~10^5. The source code would take longer to finish running than the sun has left before it implodes.)
 
 # 2) SIGNAL AMPLIFIER
 
