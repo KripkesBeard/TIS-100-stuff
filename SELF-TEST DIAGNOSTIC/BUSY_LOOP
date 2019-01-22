@@ -13,9 +13,9 @@ can each fit one more cycle in them, via the swap command between the accumulato
 some day soon the cycle count will be somewhere around 1000^7 instead of 1000^5. THe issue is, of course, that there is a
 limited amount of space for instructions (15 lines) in each node.
 
-Cycle count: ~1000^5
-Node count: 8
-Instruction count: 65
+Cycle: ~1000^5
+Node: 8
+Instruction: 65
 Achievement: BUSY_LOOP
 */
 
