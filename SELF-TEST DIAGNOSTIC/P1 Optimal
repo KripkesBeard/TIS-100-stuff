@@ -1,6 +1,12 @@
-//Below is a solution to the SELF-TEST DIAGNOSTIC puzzle which is optimal in all benchmarks
-//It takes the data being passed and moves it through the nodes to the output
+/*
+Below is a solution to the SELF-TEST DIAGNOSTIC puzzle which is optimal in all benchmarks. It takes the data being 
+passed and moves it through the nodes to the output (easy, but, it being the first puzzle, is meant as a tutorial).
 
+Cycle: 83
+Node: 8
+Instruction: 8
+Achievement: [BUSY_LOOP](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP) 
+*/
 
 
 @0
