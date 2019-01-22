@@ -1,0 +1,30 @@
+//Below is a solution to the SELF-TEST DIAGNOSTIC puzzle which is optimal in all benchmarks
+//It takes the data being passed and moves it through the nodes to the output
+
+
+
+@0
+MOV UP, DOWN
+
+##OPTIMAL
+
+@1
+MOV RIGHT DOWN
+
+@2
+MOV UP LEFT
+
+@3
+MOV UP, DOWN
+
+@4
+MOV UP DOWN
+
+@5
+MOV UP, DOWN
+
+@6
+MOV UP RIGHT
+
+@7
+MOV LEFT DOWN
