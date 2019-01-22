@@ -1,8 +1,12 @@
 /*
+This program solves the SIGNAL AMPLIFIER puzzle with optimal node and instruction counts. The puzzle gives you numerical
+input and asks you to double it and return the value. This is accomplished with a minimal number of nodes and instructions
+by moving the input to the accumulator register in the first node (the node where this happens doesn't matter), adding the
+value of acc to itself, and then passing that value down to the output node.
 
-
-
-
+Cycles: 160
+Nodes: 4
+Instructions: 6
 */
 
 
