@@ -1,0 +1,115 @@
+/*
+This is a solution to SELF-TEST DIAGNOSTIC which satisfies the achievemtn BUSY_LOOP, the requirement of which is
+for the program to take over 100,000 cycles.
+
+As an overview, the program puts a value of 999 (the maximum) in each accumulator for each node, then goes on a cycle of
+subtracting 1 until the value is -1, once this happens it sends a signal to the next node which then subtracts 1, sends a
+signal back to the first node, and has the first node start over. Once the second node reaches -1, it sends a signal to the
+third node, which subtracts 1, and sends a signal back to node 2, which sends a signal back to node 1 and then restarts. 
+This cycle continues for all nodes until finally once the last node has reached -1, it sends a signal all the way back which 
+lets the input go through all the nodes to the outup. So the run time is obviously exponential in the number of nodes, 
+there are 5 nodes, so cycle count is roughly 1000^5. However, I believe that the first node and the second node
+can each fit one more cycle in them, via the swap command between the accumulator and the back up register. So, hopefully
+some day soon the cycle count will be somewhere around 1000^7 instead of 1000^5.
+
+Cycle count: ~1000^5
+Node count: 8
+Instruction count: 65
+Achievement: BUSY_LOOP
+*/
+
+
+@0
+MOV UP DOWN
+
+@1
+START:MOV 999 ACC
+LOOP:MOV RIGHT NIL
+SUB 1
+NOP
+NOP
+NOP
+JLZ MID
+MOV 0 RIGHT
+JMP LOOP
+MID:MOV 0 DOWN
+MOV DOWN ACC
+MOV ACC RIGHT
+JLZ END
+JMP START
+END:MOV RIGHT DOWN
+
+@2
+START:MOV 999 ACC
+LOOP:SUB 1
+JLZ MID
+JMP LOOP
+MID:MOV 0 LEFT
+MOV LEFT ACC
+JLZ END
+JMP START
+END:MOV UP LEFT
+
+@3
+MOV UP DOWN
+
+@4
+START:MOV 999 ACC
+LOOP: MOV UP NIL
+SUB 1
+NOP
+NOP
+JLZ MID
+MOV 0 UP
+JMP LOOP
+MID:MOV 0 DOWN
+MOV DOWN ACC
+JLZ END
+MOV 0 UP
+JMP START
+END:MOV ACC UP
+MOV UP DOWN
+
+@5
+MOV UP DOWN
+
+
+
+
+
+
+
+
+
+
+
+
+
+##BIG_EXP
+
+@6
+START:MOV 999 ACC
+LOOP: MOV UP NIL
+SUB 1
+NOP
+NOP
+JLZ MID
+MOV 0 UP
+JMP LOOP
+MID:MOV 0 RIGHT
+MOV RIGHT ACC
+JLZ END
+MOV 0 UP
+JMP START
+END:MOV ACC UP
+MOV UP RIGHT
+
+@7
+START:MOV 999 ACC
+LOOP: MOV LEFT NIL
+SUB 1
+JLZ END
+MOV 0 LEFT
+JMP LOOP
+END:MOV -1 LEFT
+MOV LEFT DOWN
