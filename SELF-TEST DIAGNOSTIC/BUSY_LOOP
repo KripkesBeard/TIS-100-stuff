@@ -10,7 +10,8 @@ This cycle continues for all nodes until finally once the last node has reached 
 lets the input go through all the nodes to the outup. So the run time is obviously exponential in the number of nodes, 
 there are 5 nodes, so cycle count is roughly 1000^5. However, I believe that the first node and the second node
 can each fit one more cycle in them, via the swap command between the accumulator and the back up register. So, hopefully
-some day soon the cycle count will be somewhere around 1000^7 instead of 1000^5.
+some day soon the cycle count will be somewhere around 1000^7 instead of 1000^5. THe issue is, of course, that there is a
+limited amount of space for instructions (15 lines) in each node.
 
 Cycle count: ~1000^5
 Node count: 8
