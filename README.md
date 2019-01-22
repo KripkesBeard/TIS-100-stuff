@@ -7,7 +7,8 @@ Some of the puzzles also have achievements associated with them, which are rewar
 
 # 1) SELF-TEST DIAGNOSTIC 
 
-[Optimal for all benchmarks solution](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal)
+[Optimal for all benchmarks solution](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal) 
+
 [Achievement solution](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP)
 
 # 2) SIGNAL AMPLIFIER
