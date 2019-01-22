@@ -9,6 +9,12 @@ N.B. The source code files contain comments enclosed in standard multi line comm
 
 # 1) SELF-TEST DIAGNOSTIC 
 
+Instructions:
+
+>READ A VLUE FROM IN.X AND WRITE THE VALUE TO OUT.X
+
+>READ A VALUE FROM IN.A AND WRITE THE VALUE TO OUT.A
+
 Optimal for all benchmarks:
 
 [Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/Optimal), [Image](https://imgur.com/NCmY4t5)
@@ -18,6 +24,14 @@ Achievement:
 [Source Code](https://github.com/KripkesBeard/TIS-100-stuff/blob/master/SELF-TEST%20DIAGNOSTIC/BUSY_LOOP), [Image](https://imgur.com/dZpfDnX)
 
 # 2) SIGNAL AMPLIFIER
+
+Instructions:
+
+>READ A VALUE FROM IN.A
+
+>DOUBLE THE VALUE
+
+>WRITE THE VALUE TO OUT.A
 
 Optimal for cycles and achievement:
 
@@ -29,9 +43,13 @@ Optimal for node count and instruction count:
 
 # 3) DIFFERENTIAL COUNTER
 
-sdf
-sdf
-sdf
+>READ VALUES FROM IN.A AND IN.B
+
+>WRITE IN.A - IN.B TO OUT.P
+
+>WRITE IN.B - IN.A TO OUT.N
+
+
 
 # 4) SINGAL COMPARATOR
 
