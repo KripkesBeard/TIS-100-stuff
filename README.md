@@ -23,6 +23,8 @@ Optimal for cycles and achievement:
 
 [Source Code](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/PARALLELIZE), [Image](https://imgur.com/cQF8CHV)
 
+
+
 # 3) DIFFERENTIAL COUNTER
 
 sdf
