@@ -1,0 +1,51 @@
+/*
+This program solves the SIGNAL AMPLIFIER puzzle while satisfiying both the PARALLELIZE achievement as well as being optimal
+on cycle count. The puzzle gives numerical input and asks the user to double the input and output it in the same order as it
+was input. The PARALLELIZE achievement is satisfied by having the cycle count be under 100, which can only be done through
+parallel computing, as the name suggests. The program splits the input to different nodes which handle the computation 
+concurrently and then feed the input back to the last node in the same order so that the conditions for passing the puzzle
+are satisfied. This solution is opitmal for cycles but not for node or instructions.
+
+Cycles: 84
+Node: 5
+Instructions: 12
+*/
+
+
+
+@0
+##PARALELIZE
+
+@1
+MOV UP DOWN
+MOV UP RIGHT
+
+@2
+MOV LEFT ACC
+ADD ACC
+MOV ACC DOWN
+
+@3
+
+
+@4
+MOV UP ACC
+ADD ACC
+MOV ACC RIGHT
+
+@5
+MOV LEFT DOWN
+MOV UP DOWN
+
+@6
+
+
+@7
+
+
+@8
+MOV UP DOWN
+MOV UP DOWN
+
+@9
+
