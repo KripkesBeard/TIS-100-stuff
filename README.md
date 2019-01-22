@@ -23,7 +23,9 @@ Optimal for cycles and achievement:
 
 [Source Code](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/PARALLELIZE), [Image](https://imgur.com/cQF8CHV)
 
+Optimal for node count and instruction count:
 
+[Source Code](https://github.com/KripkesBeard/TIS-100/blob/master/SIGNAL%20AMPLIFIER/Optimal%20Node%20Instruction), [Image](https://imgur.com/r1rRNUT)
 
 # 3) DIFFERENTIAL COUNTER
 
