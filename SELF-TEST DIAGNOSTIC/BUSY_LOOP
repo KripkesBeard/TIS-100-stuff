@@ -11,7 +11,8 @@ lets the input go through all the nodes to the outup. So the run time is obvious
 there are 5 nodes, so cycle count is roughly 1000^5. However, I believe that the first node and the second node
 can each fit one more cycle in them, via the swap command between the accumulator and the back up register. So, hopefully
 some day soon the cycle count will be somewhere around 1000^7 instead of 1000^5. THe issue is, of course, that there is a
-limited amount of space for instructions (15 lines) in each node.
+limited amount of space for instructions (15 lines) in each node. Also, remember that each ~1000^5 cycle is just for letting
+one of the inputs through, of which there are 40.
 
 Cycle: ~1000^5
 Node: 8
